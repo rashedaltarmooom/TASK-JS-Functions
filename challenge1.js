@@ -3,12 +3,6 @@
  * Create a function named `printName`
  * - that just prints your name on the screen
  */
-function printName(name) {
-  console.log(`Your name is ${name}`);
-}
-
-let name = Rashed;
-printName();
 
 /**
  * Task 2:
@@ -28,6 +22,15 @@ printName();
  * -- fr: it should print `Bonjour NAME`
  * -- tr: it should print `Merhaba NAME`
  */
+function printHello(name) {
+  let dictionary = {
+    English: "Hello ",
+    Spanish: "Hola ",
+    French: "Bonjour ",
+    Turkish: "Merhaba ",
+  };
+  console.log(dictionary[language] + [name]);
+}
 
 /**
  * Task 4:
