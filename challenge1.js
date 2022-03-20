@@ -3,6 +3,12 @@
  * Create a function named `printName`
  * - that just prints your name on the screen
  */
+function printName(name) {
+  console.log(`Your name is ${name}`);
+}
+
+let name = Rashed;
+printName();
 
 /**
  * Task 2:
